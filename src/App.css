@@ -1,38 +1,422 @@
-.App {
-  text-align: center;
+.img1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text
+{
+  margin: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(-1px);
+  backdrop-filter: blur(-1px);
+  padding: 20px;
+  margin:30px 80px 30px 80px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.outer{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+ 
+}
+.bts{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+ .icons i{
+ margin: 10px;
+ font-size: x-large;
+ color: rgb(2, 2, 2);
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+i:hover{
+  color: red;
+}
+a{
+
+  text-decoration:none
+}
+
+.insta{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(255, 0, 140) ,rgb(248, 120, 190));
+ color: white;
+
+}
+.insta:hover{
+  color: rgb(131, 0, 28);
+  cursor: pointer;
+}
+.insta i {
+ margin-left: 120px;
+  
+}
+.fb{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(0, 26, 255) ,rgb(111, 124, 243));
+ color: white;
+
+}
+.fb:hover{
+  color: rgb(9, 2, 107);
+  cursor: pointer;
+}
+.fb i {
+ margin-left: 120px;
+  
+}
+.what-app{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgba(1, 218, 19, 0.795) ,rgb(81, 219, 93));
+ color: white;
+
+}
+.what-app:hover{
+  color: rgb(0, 121, 10);
+  cursor: pointer;
+}
+.what-app i {
+ margin-left: 120px;
+  
+}
+.snapchat {
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(250, 233, 0) ,rgb(236, 228, 108));
+ color: white;
+
+}
+.snapchat:hover{
+  color: rgba(165, 154, 0, 0.664);
+  cursor: pointer;
+}
+.snapchat i {
+ margin-left: 120px;
+  
+}
+.twitter{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(0, 26, 255) ,rgb(111, 124, 243));
+ color: white;
+
+}
+.twitter:hover{
+  color: rgb(9, 2, 107);
+  cursor: pointer;
+}
+.twitter i {
+ margin-left: 120px;
+}
+.linkedin{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(0, 225, 255) ,rgb(132, 230, 243));
+ color: white;
+
+}
+.linkedin:hover{
+  color: rgb(18, 2, 241);
+  cursor: pointer;
+}
+.linkedin i {
+ margin-left: 120px;
+}
+
+.telegram{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(0, 102, 255) ,rgb(109, 164, 247));
+ color: white;
+
+}
+.telegram:hover{
+  color: rgb(18, 2, 241);
+  cursor: pointer;
+}
+.telegram i {
+ margin-left: 120px;
+}
+
+.github{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(13, 19, 27) ,rgb(67, 70, 73));
+ color: white;
+
+}
+.github:hover{
+  color: rgb(121, 121, 122);
+  cursor: pointer;
+}
+.github i {
+ margin-left: 120px;
+}
+.discord{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+ background: linear-gradient(to right,rgb(0, 102, 255) ,rgb(109, 164, 247));
+ color: white;
+
+}
+.discord:hover{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.discord i {
+ margin-left: 120px;
+}
+@media only screen and (max-width: 600px) {
+
+  .container{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(-1px);
+    backdrop-filter: blur(-1px);
+    padding: 0px;
+    margin:30px 10px 30px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .insta{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(255, 0, 140) ,rgb(248, 120, 190));
+   color: white;
+  
   }
+  .twitter{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(0, 26, 255) ,rgb(111, 124, 243));
+   color: white;
+  
+  }
+  .linkedin{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(0, 225, 255) ,rgb(132, 230, 243));
+   color: white;
+  
+  }
+  .telegram{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(0, 102, 255) ,rgb(109, 164, 247));
+   color: white;
+  
+  }
+  .discord{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(0, 102, 255) ,rgb(109, 164, 247));
+   color: white;
+  
+  }
+  .snapchat {
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(250, 233, 0) ,rgb(236, 228, 108));
+   color: white;
+  
+  }
+  .fb{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(0, 26, 255) ,rgb(111, 124, 243));
+   color: white;
+  
+  }
+  .github{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgb(13, 19, 27) ,rgb(67, 70, 73));
+   color: white;
+  
+  }
+  .what-app{
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   background: linear-gradient(to right,rgba(1, 218, 19, 0.795) ,rgb(81, 219, 93));
+   color: white;
+  
+  }
+  
+ .icons i{
+  margin: 7px;
+  font-size: x-large;
+  color: rgb(2, 2, 2);
+  
+ }
+ 
+ .bts{
+  margin: 10px 0px 20px 0px;
+}
+
+  
 }
